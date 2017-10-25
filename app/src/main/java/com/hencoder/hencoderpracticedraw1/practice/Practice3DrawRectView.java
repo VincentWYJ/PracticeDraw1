@@ -27,6 +27,8 @@ public class Practice3DrawRectView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        mPaint.setAntiAlias(true);
+
         mPaint.setStyle(Paint.Style.FILL);
         mPaint.setColor(Color.BLACK);
         canvas.drawRect(250, 150, 500, 400, mPaint);
