@@ -30,9 +30,9 @@ public class Practice9DrawPathView extends View {
 
         mPaint.setAntiAlias(true);
 
-        mPath.addArc(200, 200, 400, 400, -225, 225);
-        mPath.arcTo(400, 200, 600, 400, -180, 225, false);
-        mPath.lineTo(400, 542);
+        mPath.addArc(200, 200, 300, 300, -225, 225);
+        mPath.arcTo(300, 200, 400, 300, -180, 225, false);
+        mPath.lineTo(300, 380);
         canvas.drawPath(mPath, mPaint);
 
 //        练习内容：使用 canvas.drawPath() 方法画心形
