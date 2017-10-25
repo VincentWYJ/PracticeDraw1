@@ -29,7 +29,7 @@ public class Practice9DrawPathView extends View {
         super.onDraw(canvas);
 
         mPaint.setAntiAlias(true);
-        
+
         mPath.addArc(200, 200, 400, 400, -225, 225);
         mPath.arcTo(400, 200, 600, 400, -180, 225, false);
         mPath.lineTo(400, 542);
